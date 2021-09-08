@@ -17,6 +17,7 @@
         }
     ],
     "require": {
+        "php": "^8",
         "spatie/query-string": "^1.0",
         "spatie/crypto": "^2.0",
         "spatie/blink": "^1.1",
