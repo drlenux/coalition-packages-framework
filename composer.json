@@ -1,0 +1,41 @@
+{
+    "name": "drlenux/mnf",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "core\\": "core/",
+            "config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "drlenux",
+            "email": "drlenux@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/query-string": "^1.0",
+        "spatie/crypto": "^2.0",
+        "spatie/blink": "^1.1",
+        "spatie/string": "^3.0",
+        "spatie/array-functions": "^1.9",
+        "spatie/url-signer": "^1.2",
+        "spatie/backtrace": "^1.2",
+        "spatie/url": "^2.0",
+        "spatie/once": "^3.0",
+        "spatie/async": "^1.5",
+        "spatie/image": "^2.1",
+        "spatie/image-optimizer": "^1.4",
+        "symfony/yaml": "6.0.x-dev",
+        "symfony/error-handler": "6.0.x-dev",
+        "altorouter/altorouter": "dev-master",
+        "twig/twig": "3.x-dev",
+        "symfony/dotenv": "6.0.x-dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "6.0.x-dev"
+    }
+}
