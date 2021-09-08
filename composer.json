@@ -34,7 +34,8 @@
         "symfony/error-handler": "6.0.x-dev",
         "altorouter/altorouter": "dev-master",
         "twig/twig": "3.x-dev",
-        "symfony/dotenv": "6.0.x-dev"
+        "symfony/dotenv": "6.0.x-dev",
+        "voku/anti-xss": "4.1.x-dev"
     },
     "require-dev": {
         "symfony/var-dumper": "6.0.x-dev"

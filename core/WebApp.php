@@ -11,7 +11,7 @@ use config\Web;
 class WebApp
 {
     private static Url $url;
-    private static MD5UrlSigner $urlSigner;
+    public static MD5UrlSigner $urlSigner;
     private static Dotenv $dotenv;
 
     /** @var Router[] */
